@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Microprocesadores y Assembler</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #555;
+            margin-top: 20px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Introducción a los Microprocesadores y Lenguaje Assembler</h1>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#microprocesadores">Microprocesadores</a>
+        <a href="#memoria">Memoria</a>
+        <a href="#assembler">Lenguaje Assembler</a>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <div class="container">
+        <!-- Sección de Microprocesadores -->
+        <section id="microprocesadores">
+            <h2>Introducción a los Microprocesadores</h2>
+            <h3>Definición</h3>
+            <p>Un microprocesador es un circuito integrado que contiene la Unidad Central de Procesamiento (CPU) de una computadora. Es el cerebro de la máquina, encargado de ejecutar instrucciones y procesar datos.</p>
+
+            <h3>Evolución Histórica</h3>
+            <p>Los microprocesadores han evolucionado desde los primeros modelos de 4 bits en los años 70 hasta los modernos procesadores de múltiples núcleos y altas velocidades.</p>
+
+            <h3>Organización de los Microprocesadores</h3>
+            <ul>
+                <li><strong>Unidad de Control:</strong> Dirige las operaciones del procesador.</li>
+                <li><strong>Unidad Aritmético-Lógica (ALU):</strong> Realiza operaciones matemáticas y lógicas.</li>
+                <li><strong>Registros y Apuntadores:</strong> Almacenan datos temporales y direcciones de memoria.</li>
+                <li><strong>Buses de Datos, Dirección y Control:</strong> Facilitan la comunicación entre componentes.</li>
+            </ul>
+        </section>
+
+        <!-- Sección de Memoria -->
+        <section id="memoria">
+            <h2>Memoria</h2>
+            <h3>Definición</h3>
+            <p>La memoria es un componente esencial que almacena datos e instrucciones para ser procesados por el microprocesador.</p>
+
+            <h3>Tipos de Memoria</h3>
+            <ul>
+                <li><strong>Memoria ROM:</strong> Memoria de solo lectura, no volátil.</li>
+                <li><strong>Memoria RAM:</strong> Memoria de acceso aleatorio, volátil.</li>
+                <li><strong>Memoria Principal y Secundaria:</strong> Almacenamiento temporal y permanente.</li>
+                <li><strong>Memoria Cache:</strong> Acelera el acceso a datos frecuentes.</li>
+                <li><strong>Memoria Virtual:</strong> Extensión de la memoria RAM en el disco duro.</li>
+            </ul>
+
+            <h3>Interacción Procesador-Memoria</h3>
+            <p>El procesador accede a la memoria para leer instrucciones y datos, y escribe resultados en ella.</p>
+
+            <h3>Interrupciones</h3>
+            <p>Las interrupciones permiten al procesador atender eventos externos, como entradas de teclado, video o archivos.</p>
+        </section>
+
+        <!-- Sección de Lenguaje Assembler -->
+        <section id="assembler">
+            <h2>Lenguaje Assembler</h2>
+            <h3>Directivas e Instrucciones Comunes</h3>
+            <p>El lenguaje Assembler utiliza instrucciones de bajo nivel para controlar directamente el hardware.</p>
+
+            <h3>Estructuras de Control</h3>
+            <p>Incluye bucles, condicionales y saltos para controlar el flujo del programa.</p>
+
+            <h3>Ciclos y Saltos</h3>
+            <ul>
+                <li><strong>Ciclos:</strong> Repetición de instrucciones.</li>
+                <li><strong>Saltos Condicionales y Absolutos:</strong> Cambian el flujo del programa basado en condiciones.</li>
+            </ul>
+
+            <h3>Banderas</h3>
+            <p>Las banderas de acarreo y cero indican estados específicos después de operaciones aritméticas.</p>
+
+            <h3>Manejo de Subrutinas</h3>
+            <p>Las subrutinas permiten reutilizar código y organizar programas de manera modular.</p>
+
+            <h3>Ejercicios Prácticos</h3>
+            <p>Se incluyen ejemplos de programas en Assembler para practicar conceptos básicos y avanzados.</p>
+        </section>
+    </div>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2023 Blog de Microprocesadores y Assembler. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
